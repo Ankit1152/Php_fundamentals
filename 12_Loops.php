@@ -7,7 +7,19 @@ for ($start = 1; $start <= 10; $start++) {
 }
 
 // While loop
+$num = 1;
+while($num < 10){
+    echo ($num ."</br>");
+    $num++;
+}
 
+
+// do-while
+$num = 10;   
+do{
+    echo($num. "</br>");
+    $num--;
+}while($num >= 1);
 
 // break and continue keyword
 for ($i = 1; $i <= 10; $i++) {
